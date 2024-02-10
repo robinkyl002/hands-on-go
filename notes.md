@@ -2,6 +2,7 @@
 
 ## Section 1 - Packages
 Notes [here](packages/packages.md)
+Functions notes [here](functions/functions.md)
 
 ## Section 2 and 3 - Types
 Notes [here](types/types.md)

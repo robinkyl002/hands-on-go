@@ -41,3 +41,5 @@ Code in [modules](modules/main.go)
   - In terminal -- `go get path` (i.e. `go get github.com/jboursiquot/go-proverbs`)
   - The module tool will retrieve the package if it hasn't already been retrieved and cache it locally
   - When adding or removing modules, use `go mod tidy` which will go through and retrieve or remove packages as needed to keep dependencies clean
+
+## Functions - see [functions.md](../functions/functions.md)
