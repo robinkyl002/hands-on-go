@@ -2,7 +2,7 @@
 Return to overview of notes: [notes.md](../notes.md)
 
 ## Code organization with packages
-Code in [main.go](basics/main.go)
+Code in [basics](basics/main.go)
 
 - packages are required for every Go file in the project
 - package `main` and function `main()` specify the entry point for programs
@@ -14,7 +14,7 @@ Code in [main.go](basics/main.go)
   - **Note:** This creates a temporary executable, runs the program, then deletes the executable
 
 ## Importing and using packages
-Code in [main.go](imports/begin/main.go)
+Code in [imports](imports/begin/main.go)
 
 - Find packages for use in Go code [here](https://pkg.go.dev)
   - Contains documentation for library and third-party packages
@@ -22,3 +22,13 @@ Code in [main.go](imports/begin/main.go)
   - Includes an example of usage which shows which package needs to be included in order to use the function (`fmt` for the `Println` function)
   - Site allows you to modify and run code right there to see how it changes the outcome.
   - Some library packages may be recognized and automatically added if you try to use them. 
+
+## Packages and Visibility
+Code in [visibility](visibility/main.go)
+
+- Go does not use codewords such as `public` or `private` to restrict access to variables or functions, instead it uses capitalization to achieve that
+- You can find the code behind a function by looking it up at https://pkg.go.dev and clicking on the function name. 
+- In the code for the `Fprintln` function, it uses a `newPrinter` function which cannot be used outside of its package because it starts with a lowercase letter
+
+## Third-party Packages
+Code in [modules](modules/main.go)
