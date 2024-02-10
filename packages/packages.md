@@ -32,3 +32,12 @@ Code in [visibility](visibility/main.go)
 
 ## Third-party Packages
 Code in [modules](modules/main.go)
+
+- You can tell if there is a module being used by whether there is a go.mod file in the project
+  - The file has the module's path up at the top, which is what is used to import it into other packages or programs
+  - the `require` code block lists the third-party packages used across the project
+  - You can get the path for a package on the Go documentation page by clicking on the "copy path" icon at the top, just above the name of the package
+    - Example [here](/packages/Third-party%20package%20for%20Go.png)
+  - In terminal -- `go get path` (i.e. `go get github.com/jboursiquot/go-proverbs`)
+  - The module tool will retrieve the package if it hasn't already been retrieved and cache it locally
+  - When adding or removing modules, use `go mod tidy` which will go through and retrieve or remove packages as needed to keep dependencies clean
