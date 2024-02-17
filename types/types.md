@@ -20,3 +20,11 @@ Several ways to declare variables in Go
 ## Constants
 Code [here](constants/begin/main.go)
 
+- Constants must be Booleans, strings, numerics, or runes
+  - runes (aka characters in every other programming language) are a single character in single quotes
+- using `%T` in a string with a variable will output the variable type
+  - `%v` outputs the value of a number, `%c` outputs the value of a rune/character
+- Constants may not be declared using the short method 
+
+## Type Conversions
+Code [here]
