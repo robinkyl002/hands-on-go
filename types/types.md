@@ -27,4 +27,10 @@ Code [here](constants/begin/main.go)
 - Constants may not be declared using the short method 
 
 ## Type Conversions
-Code [here]
+Code [here](conversion/begin/main.go)
+
+- different from casting in other languages
+  - Creates new memory allocation for converted value
+  - Need to use a new variable to hold the converted value
+
+## 
