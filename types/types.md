@@ -33,4 +33,12 @@ Code [here](conversion/begin/main.go)
   - Creates new memory allocation for converted value
   - Need to use a new variable to hold the converted value
 
-## 
+## Pointers
+Code [here](pointers/begin/main.go)
+
+- pointers are created using this format
+  - `var name *variableTypeToBeUsedWith`
+    - i.e. `var a *int` will be a pointer used with integers
+- Use `&` to access the memory location of a variable
+- Use `*` to access the value attached to a pointer
+
