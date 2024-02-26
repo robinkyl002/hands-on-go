@@ -63,3 +63,15 @@ Code [here](structs/methods/begin/main.go)
 Code [here](structs/pointers/begin/main.go)
 
 - To pass a struct by reference into a function declaration, put an asterisk next to the struct name
+
+## Struct Embedding
+Code [here](structs/embed/begin/main.go)
+
+- Go doesn't support inheritance
+- Embedding is used to compose structs and interfaces
+- To embed a parent struct, just add its name to the list of fields under the other struct
+- When initializing a struct that embedded another struct in itself, you have to use the structure `parentStruct : parentStruct` then inside the braces initialize the fields for that struct like normal
+- overriding is allowed for functions of structs
+
+## Arrays
+Code [here](arrays/begin/main.go)
