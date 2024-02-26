@@ -62,4 +62,4 @@ Code [here](structs/methods/begin/main.go)
 ## Struct Pointers
 Code [here](structs/pointers/begin/main.go)
 
-- 
+- To pass a struct by reference into a function declaration, put an asterisk next to the struct name
