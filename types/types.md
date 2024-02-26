@@ -42,3 +42,18 @@ Code [here](pointers/begin/main.go)
 - Use `&` to access the memory location of a variable
 - Use `*` to access the value attached to a pointer
 
+## Struct basics
+Code [here](structs/fields/begin/main.go)
+
+- Struct is a collection of fields
+- When creating any custom type such as a struct always start it with the `type` keyword
+- after including the name of the struct, put the `struct` keyword
+- inside the struct, list any fields needed for the struct
+- When creating a struct in a function, set the variable equal to the struct name, then use braces to surround the field declarations
+  - Use a colon after the field name
+  - put a comma after each field is declared, even the last in the list.
+
+## Struct Methods
+Code [here](structs/methods/begin/main.go)
+
+- 
