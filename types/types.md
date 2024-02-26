@@ -75,3 +75,10 @@ Code [here](structs/embed/begin/main.go)
 
 ## Arrays
 Code [here](arrays/begin/main.go)
+
+- Declare an array using this format
+  - `var name [arraySize]type`
+    - i.e. `var a [4]int`
+- Arrays cannot be resized
+  - If you end up needing a bigger array, you need to create a new array and copy your values from the original to the new.
+  - Slices are a more convenient way to work with arrays
