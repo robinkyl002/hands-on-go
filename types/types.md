@@ -56,4 +56,10 @@ Code [here](structs/fields/begin/main.go)
 ## Struct Methods
 Code [here](structs/methods/begin/main.go)
 
+- specify the struct as a receiver 
+- When declaring the function, after the `func` keyword, put in parentheses the variable name and then the struct name
+
+## Struct Pointers
+Code [here](structs/pointers/begin/main.go)
+
 - 
