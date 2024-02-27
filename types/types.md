@@ -95,4 +95,30 @@ Initialization Code [here](maps/initialization/begin/main.go)
 Lookups Code [here](maps/lookups/begin/main.go)
 Mutating Code [here](maps/mutating/begin/main.go)
 
-- 
+### Initialization 
+- key-value pairs
+- Declare in the following format
+  - `var mapName map[keyType]valueType`
+    - i.e. `var authors map[string]author`
+- initialize the map with the `make` function
+  - i.e. `authors = make(map[string]author)`
+  - Don't need to specify size of the map
+- Add a pair to the map using this format
+  - `mapName[key] = value`
+    - i.e. `authors["tm"] = author{name: "Toni Morrison"}`
+- Access a value in the map using its key with this format
+  - `mapName[key]`
+
+### Lookups
+- If you try to access a value using a key that doesn't exist, no error is thrown
+  - It just returns an empty value which can cause bugs
+- Use comma okay style to lookup things in maps
+  - `a, ok := authors["jr]"]`
+  - `ok` is a boolean variable that returns true if the key does exist
+
+### Mutating
+- To change the value associated with a key use this format
+  - `mapName[key] = newValue`
+    - i.e. `authors["tm"] = author{name: "James Baldwin"}`
+- Delete key function built in for maps
+  - `delete(mapName, key)`
