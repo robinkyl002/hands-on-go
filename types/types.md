@@ -82,3 +82,17 @@ Code [here](arrays/begin/main.go)
 - Arrays cannot be resized
   - If you end up needing a bigger array, you need to create a new array and copy your values from the original to the new.
   - Slices are a more convenient way to work with arrays
+
+## Slices
+Code [here](slices/begin/main.go)
+
+- slices dynamically manage the array in the background so you don't have to do the work manually
+- The make function works with slices, maps, and channels to allocate a size in an optional capacity
+- use `append()` to add items to a slice
+
+## Maps
+Initialization Code [here](maps/initialization/begin/main.go)
+Lookups Code [here](maps/lookups/begin/main.go)
+Mutating Code [here](maps/mutating/begin/main.go)
+
+- 
