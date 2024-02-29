@@ -34,10 +34,18 @@ Code [here](loop-infinite/main.go)
 
 
 ## Conditionals
-If-Else Code [here](if-else/begin/main.go)
-Switch Code [here](switch/begin/main.go)
 
--
+### If-Else
+Code [here](if-else/begin/main.go)
+
+- if you don't care about the index when iterating through a slice, use a blank identifier, aka an underscore (`_`) for the variable that would hold the index
+- `else` must be on the same line as the closing brace of the `if` statement
+- In the code `even` is being set as a boolean result of seeing whether dividing the number by 2 gives a remainder of 0
+  - If even is true, the code inside the if statement will run. 
+
+### Switch
+Code [here](switch/begin/main.go)
+- 
 
 ## Defer-Panic-Recover
 Code [here](defer-panic-recover/begin/main.go)
