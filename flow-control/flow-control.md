@@ -45,7 +45,10 @@ Code [here](if-else/begin/main.go)
 
 ### Switch
 Code [here](switch/begin/main.go)
-- 
+
+- after the `switch` keyword specify what variable will be looked at
+- if multiple cases should do the same thing, group them after the `case` keyword, separated by commas
+- `default` keyword will apply the code block beneath it to anything that does not match any of the cases described.
 
 ## Defer-Panic-Recover
 Code [here](defer-panic-recover/begin/main.go)
