@@ -30,6 +30,8 @@ Code [here](loop-range/begin/main.go)
 ### Infinite
 Code [here](loop-infinite/main.go)
 
+- Do not include a condition after `for` then put in the braces what should the loop should do
+
 
 ## Conditionals
 If-Else Code [here](if-else/begin/main.go)
