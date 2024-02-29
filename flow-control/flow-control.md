@@ -21,6 +21,12 @@ While Loop Code [here](loop-while/begin/main.go)
 ### Range
 Code [here](loop-range/begin/main.go)
 
+- Distinguishing feature of Go is the `range` keyword
+  - used in conjunction with `for` to iterate over elements of maps, slices, arrays, and channels
+- `range` can return both the current index and the value at that index
+- In loop, include the variables that will receive the data you are pulling out
+  - i.e. `k` and `v` for the key and value from the map
+
 ### Infinite
 Code [here](loop-infinite/main.go)
 
