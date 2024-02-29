@@ -15,7 +15,8 @@ Code [here](loop-basic/begin/main.go)
 ### While Loop
 While Loop Code [here](loop-while/begin/main.go)
 
-- 
+- Although the function and structure is the same as a while loop in other languages, the `for` keyword is used rather than `while`
+- Again, parentheses are not used around the condition
 
 ### Range
 Code [here](loop-range/begin/main.go)
