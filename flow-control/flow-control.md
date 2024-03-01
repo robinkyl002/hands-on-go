@@ -52,3 +52,13 @@ Code [here](switch/begin/main.go)
 
 ## Defer-Panic-Recover
 Code [here](defer-panic-recover/begin/main.go)
+
+- `defer` allows a function to run no matter what while another function runs
+- Similar to try/catch in other languages
+  - Do not use in the same way as try/catch
+  - Go doesn't support exception handling
+  - Treat errors like values
+- You can use as many `defer` statements as you want
+  - They run LIFO (last one listed will perform first)
+- Anything placed after `defer` statements will also run 
+- `panic` is used for exception handling but usually paired with `recover`
