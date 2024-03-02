@@ -62,3 +62,12 @@ Code [here](defer-panic-recover/begin/main.go)
   - They run LIFO (last one listed will perform first)
 - Anything placed after `defer` statements will also run 
 - `panic` is used for exception handling but usually paired with `recover`
+
+## Challenge
+
+- When reading arguments from the command line, the argument count starts at zero (0) after the `go run` 
+- To check whether a rune in a string is a number, letter, or symbol, you can use the `unicode` package
+- `Split` and `Fields` are part of the `strings` package
+- `ReadFile` is part of the `os` package
+- You can use `for-range` to iterate over a string
+- 
