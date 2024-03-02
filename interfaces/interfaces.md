@@ -15,6 +15,9 @@ Code [here](basics/begin/main.go)
 
 Code [here](empty/begin/main.go)
 
+- Empty interface is just an interface without any methods
+- It allows you to apply functions to variables of (almost?) any type
+
 ## Type Assertions
 
 Code [here](type-assertions/begin/main.go)
