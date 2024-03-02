@@ -22,6 +22,12 @@ Code [here](empty/begin/main.go)
 
 Code [here](type-assertions/begin/main.go)
 
+- Assert a variable as a certain type before working with it
+- another way to set a value as an empty interface is to use the `any` keyword
+- make the assertion by putting a period next to the variable, then in parentheses the type that the assertion is for
+- Be careful with assertions as they can cause problems
+  - Use ok to check whether the assertion was done correctly
+
 ## Type Switches
 
 Code [here](type-switch/begin/main.go)
