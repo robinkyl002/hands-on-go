@@ -31,3 +31,6 @@ Code [here](type-assertions/begin/main.go)
 ## Type Switches
 
 Code [here](type-switch/begin/main.go)
+
+- The `switch` statement has special functionality for type assertions
+- 
