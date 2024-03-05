@@ -35,9 +35,10 @@ func main() {
 	two := specialInt(2)
 	fmt.Println(sum(one, two))
 
+	// var b *int
 	// var a *int
-	// l := list{
-	// 	next: a, 
+	// l := list [int] {
+	// 	next: , 
 	// 	val: 24,
 	// }
 }
