@@ -19,5 +19,8 @@ Code [here](type-parameters/begin/main.go)
 ## Interface Constraints
 Code [here](type-sets/begin/main.go)
 
+- Declare set of types that an interface satisfies
+- These interfaces can also include functions that must be implemented by a type
+
 ## Standard Library support
 Code [here](standard-library/begin/main.go)
