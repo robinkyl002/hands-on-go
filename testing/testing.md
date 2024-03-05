@@ -21,6 +21,9 @@ Test file [here](basics/begin/main_test.go)
 Main file [here](table-driven/begin/main.go)
 Test file [here](table-driven/begin/main_test.go)
 
+- Testing multiple scenarios/cases at the same time
+- Create group of structs with name of the test, input, and expected output
+
 ## Benchmarking
 Main file [here](benchmarks/begin/main.go)
 Test file [here](benchmarks/begin/main_test.go)
