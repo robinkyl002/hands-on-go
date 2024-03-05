@@ -24,3 +24,7 @@ Code [here](type-sets/begin/main.go)
 
 ## Standard Library support
 Code [here](standard-library/begin/main.go)
+
+- We can use the `comparable` type from the standard library to constrain to only types that are able to be compared to one another
+  - Can only be used as a parameter type restraint, not as a type itself
+- You can use the `constraints` package to specify the type sets, so that as other types are included, you don't have to change every file to allow that new type
