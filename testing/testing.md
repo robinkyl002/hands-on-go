@@ -27,3 +27,7 @@ Test file [here](table-driven/begin/main_test.go)
 ## Benchmarking
 Main file [here](benchmarks/begin/main.go)
 Test file [here](benchmarks/begin/main_test.go)
+
+- Used to evaluate the performance of a function, which can help decide whether changes need to be made or whether a specific option should be used.
+- Start function names with Benchmark
+- Use a `for` loop to go through `b.N` times
