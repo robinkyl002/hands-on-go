@@ -17,6 +17,19 @@ Code [here](goroutines/begin/main.go)
 ## Channel Basics
 Code [here](channel-basics/begin/main.go)
 
+- Create a channel using the following syntax
+  - `channelName := make(chan type)`
+  - Example: `ch := make(chan int)`
+  - Leaving off the type creates an unbuffered channel
+- Add a parameter to the function you want to use the channel for so that it accepts a channel
+- If you know data will only be passed out of the function on the channel, put an arrow pointing to chan
+  - i.e. `func sum(nums []int, ch chan<- int)`
+- Send data back to the main thread by using this syntax
+  - `ch <- data`
+- Receive the data in main using this syntax
+  - `result := <-ch`
+- Use that variable for whatever comes next
+
 ## Buffered Channels
 Code [here]()
 
