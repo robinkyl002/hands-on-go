@@ -29,4 +29,12 @@ func main() {
 
 	// force main thread to sleep
 	// time.Sleep(100 * time.Millisecond)
+
+	ch2 := make(chan string, 2)
+
+	ch2 <- "Jared"
+	ch2 <- "Caleb"
+
+	fmt.Println(<-ch2)
+	fmt.Println(<-ch2)
 }

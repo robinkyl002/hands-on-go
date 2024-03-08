@@ -31,7 +31,9 @@ Code [here](channel-basics/begin/main.go)
 - Use that variable for whatever comes next
 
 ## Buffered Channels
-Code [here]()
+Code [here](channel-basics/begin/main.go)
+
+- When creating a channel, if you know you will be passing more than one piece of data, specify the number of data pieces
 
 ## Channel Ranging
 Code [here](channel-ranging/begin/main.go)
