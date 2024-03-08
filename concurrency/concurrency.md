@@ -38,6 +38,11 @@ Code [here](channel-basics/begin/main.go)
 ## Channel Ranging
 Code [here](channel-ranging/begin/main.go)
 
+- You can use a `for` loop with a limit of `cap(channel)` to loop through a channel
+  - `cap()` can also be used to capture the size of things like arrays and slices
+- Random numbers are generated using the `math/rand` package
+- Make sure to close the channel when needed to avoid errors
+
 ## Channel Select
 Code [here](channel-select/begin/main.go)
 
