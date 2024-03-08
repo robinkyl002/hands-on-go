@@ -46,6 +46,11 @@ Code [here](channel-ranging/begin/main.go)
 ## Channel Select
 Code [here](channel-select/begin/main.go)
 
+- When you need to wait on multiple channels at the same time
+- `select` allows you to give multiple channels and uses the results from the one that responds first
+- The `select` uses `cases`
+- 
+
 ## Channel Non-blocking
 Code [here](channel-non-blocking/begin/main.go)
 
