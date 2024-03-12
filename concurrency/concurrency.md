@@ -63,4 +63,22 @@ Code [here](channel-non-blocking/begin/main.go)
 ## Sync Package
 Code [here](sync/begin/main.go)
 
-- 
+- `sync` package provides basic synchronization primitives including
+  - Mutual exclusion locks
+  - wait group type - helps wait for a collection of goroutines to finish
+    - Declare using `sync.WaitGroup`
+    - use the `Add()` function to tell the group how many routines are being added
+      - You can use add on each pass in the loop or, if you know the number ahead of time, you can just add that number
+    - Once a goroutine has finished, call the `Done()` function
+      - make sure to use the `defer` keyword in front of the `Done()` call
+    - Use the `Wait()` function to make sure that all of the routines run before continuing
+- Maps in Go are not thread-safe
+  - Potential for data erase because multiple threads may be trying to write to it at the same time
+- Dash race flag
+  - When running the program in the terminal, place `-race` between `go run` and the file
+  - Shows how the goroutines may cause conflicts, should one finish before another
+- Use mutual exclusion (`mutex`) to help with these issues
+  - Implementing `Lock()` and `Unlock()`
+  - Initialize using `sync.Mutex`
+  - Place `Lock()` and `Unlock()` after the `Done()` 
+  - Make sure to use `defer` with `Unlock()`
