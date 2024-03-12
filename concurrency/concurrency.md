@@ -54,5 +54,13 @@ Code [here](channel-select/begin/main.go)
 ## Channel Non-blocking
 Code [here](channel-non-blocking/begin/main.go)
 
+- Avoiding blocking when sending on or receiving from a channel
+- Use `default` case in `select`
+- `default` is a catch-all
+- Infinite loops are often used with non-blocking channels
+  - infinite loop is `for` loop with no parameters
+
 ## Sync Package
 Code [here](sync/begin/main.go)
+
+- 
